@@ -1,4 +1,4 @@
 # Projeto de repositorio da Dio.
-Desafio de projeto git/github
+Repositorio criado para o desafio de projeto
 ## Links uteis  
 [Sintaxe Basica Markdown](https://www.markdownguide.org/)
