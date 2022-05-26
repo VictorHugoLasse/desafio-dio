@@ -1,0 +1,2 @@
+Link de Download do Git: https://www.atlassian.com/software/bitbucket/comparison/bitbucket-vs-github?&aceid=&adposition=&adgroup=104524526297&campaign=10814957259&creative=499334857398&device=c&keyword=github%20download&matchtype=e&network=g&placement=&ds_kids=p56403537206&ds_e=GOOGLE&ds_eid=700000001551985&ds_e1=GOOGLE&gclid=CjwKCAjwyryUBhBSEiwAGN5OCG12cMNG2vHkeY1LNcca11BNrXPt69AIHyeS__Nwdj3Q2kTQgSQpoBoCHo0QAvD_BwE&gclsrc=aw.ds
+ O Git BUSH e um terminal extendido para otimizar o uso do git.
