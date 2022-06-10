@@ -1,0 +1,218 @@
+aplicação 
+
+você cria regras de estilos  para elementos ou para grupo de elementos 
+
+
+ex.:
+
+seletores= seletor são apneas elementos em  html, podem ser unitarios ou grupos de elemento.
+
+
+a,p,h1,h3
+color : blue
+font-size : 14px;
+
+declarações= sempre dentro de um par de chaves 
+ele e composta por uma propiedade e um valor.
+
+id x classe= eles podem representar qualquis tipo de elementos.
+eles entram para fazer a diferenciação pois nem sempre queremos tudo com a mesma cor e o mesmo tamanho.
+
+ex.: anterior ele  <a> ele declara um tipo pois ele representa um html.
+
+
+no css -= uma classe e definida pelo (.)
+e um id e definido por (#) e ele so pode ser utilizado uma vez na pagina. 
+
+
+
+
+box model
+
+
+ele e composto por 4 partes 
+margin=são espaciamento entre elementos
+border= ciculam a peddin e o conteúdo, conseguimos alterar elas como largura e cor
+pedding= e o espaciamento entra o pedding e o conteúdo
+content= oque seu bloco representa um texto ou imagem ou video.
+
+
+
+
+pedding e margin 
+
+existem 3 formas de fazer isso 
+1= com apenas 1 valor podemos colocar valor para parte inferior e superior e depois para o lado esquerdo e direitro
+.post{
+padding: 10px 5px; }
+nesse caso o 10px= valor de cima e de baixo  (que pode ser chamado de eixo y)
+e o 5px= valor da  esquerda e direita ( que pode ser chamado de eixo x)
+
+2=   .post {
+padding. 15px 10px 5px 0;
+} 
+nesse caso temos um valor para cada lado 
+15px = para o topo 
+10px = para direita
+5px= para parte inferior 
+0px= para parte esquerda ( quando temos o valor zero não precisamos usar a unidade no caso aqui px)
+	 
+3=  .post{
+pedding-top: 15px;
+pedding-rigth: 10 px;
+pedding-bottom: 5 px;
+pedding-left:0;
+}
+usaando nome especificos para cada lado isso e mais utilizado quando eu quero ter 3 margens de um valor igual e apenas uma de valor diferente.
+
+
+background
+
+.post{
+background-color: green;
+background-image:url("bg.png");
+beckground-position : top;
+ }
+podemos mudar a cor do fundo 
+trocar uma imagem 
+alterar posicionamento dessa imagem
+
+vamos ver como mudar a cor de fundo e como fazer isso 
+
+.post{
+background-color: green;
+background-color: #008800;
+background-color: #008000;
+}
+
+colocando o nome dela em ingles
+usando o codigo hexadecimal dele .
+
+
+
+
+border 
+
+pode ter 3 valores 
+
+lagura : pixels, centímetros , milimetros
+cor: blue , #0000ff
+estilo : solifa , pontilhada , tracejada....
+
+
+boedwe-width=largura
+border-color= para cor
+border-style=contorno da borda
+sendo mais especifico mudando so o lado que você determinar.
+
+
+border-radius
+
+aredendar os cantos de um elemento que pode se definido de 2 formas (px ou %)
+seguindo a mesma ordem do pending e img  que são 
+/topo/direita/inferior/esquerda/
+
+
+dica para transforma um quadrado em um circulo e so colocar o valor em 50% 
+
+
+font-family 
+
+ele altera a fonte de nosso textos e podemso utilizar fontes da web ou as fontes padrão instaladas na nossa maquina
+
+ex >:
+1= eu adiciono 1 fonte 
+
+font-family: Verdana;
+
+2= eu adiciono duas fontes caso 1 não funcione a outra serve para corrigir esse possivel erro.
+font-family : Verdana , Arial;
+
+
+font-size 
+altera o tamanho do nosso texto
+
+
+font-style
+altera o stilo do nosso texto 
+ex 
+valor normal; = e o padrão
+valor italic= muda para um valor mais inclinado
+sempre precisamos lembrar se a nossa fonte tem suporte ao valor italico. 
+
+
+font-weigth
+altera o peso do texto
+
+ex normal = peso comum forma como ela foi desenhada 
+
+ex bold =  negrito
+
+
+text- transform = altera o texto  entre mausculas e minusculas.
+
+uppercase = coloca todo texto em caixa alta.
+lowecase = coloca todo texto em caixa baixa.
+capitalize = Todas as primeiras letras de cada palavras em maiusculo.
+
+text-decoration = ele coloca linhas no texto
+
+underline = coloca uma linha abaixo da palavra.
+overline = coloca uma linha acima.
+line-through = linha ao centro cortando essa palavra.
+
+
+
+
+list- style-type
+
+para alterar o estilo das listas ordenadas e não ordenadas 
+
+1 ex =
+ul = lista não odenada 
+alternando para um quadrado
+
+(list-style-type : square;)
+
+2 ex=
+ol = lista ordenada
+alterando o algarismo romano para maisculo.
+list-style-type: upper-roman;
+
+3 ex=
+ul = lista não ordenada
+
+alterando o sinbolo dessa lista.
+
+list-style-type: "\1f44d":
+
+tambem podemos mostrar imagem como marcadores 
+
+list-style-image: url ("rocket.png");
+
+
+
+
+
+
+Dimensão e alinhamento
+
+ ele pode fazer o ajuste em duas propiadeade (px ou %)
+
+width= largunrea
+height= altura
+
+se referem a 
+max-width = lagura maxima.
+max-height = altura maxima.
+
+
+margin 
+serve para colocar espaciamento entre elementos 
+o valor auto para alinhar o elemento automaticamente.
+
+
+text align 
+serve para alinhar texto 
+acima a baixo direta e esquerda escritos em ingles para ajutar cada um deles especificamente.
+
